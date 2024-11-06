@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Neon Colors */
+
+
+
+  .neon-text {
+    text-shadow: 0 0 5px #fff, 0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 40px #39ff14;
+  }
+  
+  .neon-card {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.6),
+  }
+  
+  .neon-button {
+    box-shadow: 0 0 10px #ff1493, 0 0 20px #ff1493, 0 0 30px #ff1493;
+  }
+  /* Neon Button */
+.neon-button {
+    background-color: #0ff; /* Neon color */
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 15px rgba(0, 255, 255, 0.7); /* Neon shadow */
+  }
+  
+  .neon-button:hover {
+    box-shadow: 0px 6px 20px rgba(0, 255, 255, 1); /* Stronger neon on hover */
+  }
+  
+  /* Neon Shadow */
+  .neon-shadow {
+    background-color: #111; /* Dark background to make the neon pop */
+    box-shadow: 0px 4px 15px rgba(0, 255, 255, 0.7); /* Subtle neon shadow */
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .neon-shadow:hover {
+    box-shadow: 0px 6px 25px rgba(0, 255, 255, 1); /* Brighter hover shadow */
+  }
+  .neon-shadow {
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.8), 0 0 30px rgba(0, 255, 255, 0.5);
+  }
+  
+  .bg-neon-green {
+    background: rgb(6, 77, 12);
+  }
+  
+  .bg-neon-red {
+    background: rgb(255, 113, 92);
+  }
+  
+  .bg-neon-yellow {
+    background: rgba(255, 255, 0, 1);
+  }
+  
+  .bg-neon-purple {
+    background: rgba(128, 0, 128, 1);
+  }
+ 
+
+
+
+
+/* Base button style */
+button {
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Apply neon-border animation to button on hover */
+.button-with-animation:hover {
+  animation: neon-border 1.5s infinite alternate;
+}
+
+/* Neon borders on hover */
+button:hover {
+  --neon-color: currentColor;
+}

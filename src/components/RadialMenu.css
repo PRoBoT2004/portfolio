@@ -1,0 +1,51 @@
+@keyframes neonRotateWithTail {
+    0% {
+      transform: rotate(0deg);
+      border-color: rgba(0, 255, 255, 1); /* Neon cyan full opacity */
+    }
+    25% {
+      border-color: rgba(0, 255, 255, 0.7); /* Slightly faded */
+    }
+    50% {
+      border-color: rgba(0, 255, 255, 0.4); /* More faded */
+    }
+    75% {
+      border-color: rgba(0, 255, 255, 0.2); /* Almost transparent */
+    }
+    100% {
+      transform: rotate(360deg);
+      border-color: rgba(0, 255, 255, 1); /* Back to full opacity */
+    }
+  }
+  
+  .neon-border-animation {
+    position: relative;
+    z-index: 1;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: color 0.3s ease-in-out;
+    width: 100%; /* Ensuring proper size */
+    height: 100%;
+  }
+  
+  /* Neon border animation */
+  .neon-border-animation::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    right: -6px;
+    bottom: -6px;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 255, 255, 1); /* Initial neon cyan color */
+    animation: neonRotateWithTail 3s linear infinite;
+    pointer-events: none; /* Prevents interaction */
+  }
+  
+  /* Hover effect: change the text color on hover */
+  .neon-border-animation:hover {
+    color: rgba(0, 255, 255, 1); /* Neon cyan text color on hover */
+  }
+  
