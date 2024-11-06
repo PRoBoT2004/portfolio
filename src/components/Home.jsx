@@ -32,7 +32,7 @@ const Home = ({ onNavigate }) => {
           loop
           muted
         >
-          <source src="/images/vid.mp4" type="video/mp4" />
+          <source src="https://videos.pexels.com/video-files/853919/853919-sd_640_360_25fps.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
@@ -48,7 +48,7 @@ const Home = ({ onNavigate }) => {
           {/* Left: Image */}
           <div className="flex justify-center mb-10 md:w-1/2 md:mb-0">
             <img
-              src="/images/pp.jpeg" // Corrected path for the image in the public folder
+              src="https://imgs.search.brave.com/FNvvoqL4XIWawA3CiPTyOjwF1_wrROd905ZFwDKcVyI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA4LzA1LzcyLzg0/LzM2MF9GXzgwNTcy/ODQyOF9tVEFLWUtT/RUl3dlNWeGRpdVQ4/aThrRHoyZ2R3SGNn/ei5qcGc" // Corrected path for the image in the public folder
               alt="Krishna"
               className="w-3/4 mx-auto transition-transform duration-500 transform rounded-full shadow-lg hover:scale-105 neon-shadow"
             />
@@ -82,7 +82,7 @@ const Home = ({ onNavigate }) => {
             className="relative h-64 overflow-hidden transition-transform duration-300 transform bg-black rounded-lg shadow-lg cursor-pointer w-72 neon-shadow hover:scale-105"
           >
             <img 
-              src="/images/clr.png" // Corrected path for the project image
+              src="https://imgs.search.brave.com/CX--cTJekc_RjKg8gliJmysEgfSB0NfulhM8RWUJy48/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c2Vzc2lvbnMuZWR1/L3dwLWNvbnRlbnQv/dGhlbWVzL2Rpdmkt/Y2hpbGQvY29sb3It/Y2FsY3VsYXRvci93/aGVlbC01LXJ5Yi5w/bmc" // Corrected path for the project image
               alt="Project 1"
               className="object-cover w-full h-full"
             />
@@ -100,7 +100,7 @@ const Home = ({ onNavigate }) => {
             className="relative h-64 overflow-hidden transition-transform duration-300 transform bg-black rounded-lg shadow-lg cursor-pointer w-72 neon-shadow hover:scale-105"
           >
             <img 
-              src="/images/todo.jpg" // Corrected path for the project image
+              src="https://imgs.search.brave.com/Vx6z7Mg4liOXfb8w9zfl-bwS-MOX3q_fwAWZZFFIdXA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9yZXMu/Y2xvdWRpbmFyeS5j/b20vaW1hZ2lzdC9p/bWFnZS9mZXRjaC9x/X2F1dG8sZl9hdXRv/LGNfc2NhbGUsd18y/NjI0L2h0dHBzOi8v/dG9kb2lzdC5jb20v/c3RhdGljL2hvbWUt/dGVhbXMvaW50cm8v/bmFycm93L2hlYWRl/cnVpLmVuLnBuZw" // Corrected path for the project image
               alt="Project 2"
               className="object-cover w-full h-full"
             />
