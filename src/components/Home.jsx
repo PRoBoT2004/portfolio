@@ -139,19 +139,19 @@ const Home = ({ onNavigate }) => {
             <h3 className="text-lg font-bold neon-text">Contact Me</h3>
             <p className="flex items-center">
               <FaEnvelope className="mr-2" />
-              Email: <a href="mailto:your_email@example.com" className="hover:text-blue-400">your_email@example.com</a>
+              Email: <a href="krishna200428@gmail.com" className="hover:text-blue-400">your_email@example.com</a>
             </p>
             <p className="flex items-center">
               <FaPhone className="mr-2" />
-              Phone: <a href="tel:+1234567890" className="hover:text-blue-400">+1 (234) 567-890</a>
+              Phone: <a href="tel:+91 9016116357" className="hover:text-blue-400">+1 (234) 567-890</a>
             </p>
             <p className="flex items-center">
               <FaLinkedin className="mr-2" />
-              LinkedIn: <a href="https://linkedin.com/in/yourprofile" className="hover:text-blue-400">linkedin.com/in/yourprofile</a>
+              LinkedIn: <a href="https://linkedin.com/in/krm00" className="hover:text-blue-400">linkedin.com/in/yourprofile</a>
             </p>
             <p className="flex items-center">
               <FaGithub className="mr-2" />
-              GitHub: <a href="https://github.com/yourprofile" className="hover:text-blue-400">github.com/yourprofile</a>
+              GitHub: <a href="https://github.com/PRoBoT2004" className="hover:text-blue-400">github.com/yourprofile</a>
             </p>
           </div>
         </div>
