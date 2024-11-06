@@ -98,7 +98,7 @@ const About = () => {
         {/* Image */}
         <div className="mt-12">
           <img
-            src="/src/assets/pp.jpeg" // Placeholder for the image
+            src="/images/pp.jpeg" // Placeholder for the image
             alt="Krishna"
             className="w-48 h-48 mx-auto rounded-full shadow-lg hover:scale-105 neon-shadow"
           />

@@ -32,7 +32,7 @@ const Home = ({ onNavigate }) => {
           loop
           muted
         >
-          <source src="/src/assets/vid.mp4" type="video/mp4" />
+          <source src="/images/vid.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
@@ -48,7 +48,7 @@ const Home = ({ onNavigate }) => {
           {/* Left: Image */}
           <div className="flex justify-center mb-10 md:w-1/2 md:mb-0">
             <img
-              src="/src/assets/pp.jpeg" // Update this path to your image
+              src="/images/pp.jpeg" // Corrected path for the image in the public folder
               alt="Krishna"
               className="w-3/4 mx-auto transition-transform duration-500 transform rounded-full shadow-lg hover:scale-105 neon-shadow"
             />
@@ -82,7 +82,7 @@ const Home = ({ onNavigate }) => {
             className="relative h-64 overflow-hidden transition-transform duration-300 transform bg-black rounded-lg shadow-lg cursor-pointer w-72 neon-shadow hover:scale-105"
           >
             <img 
-              src="/src/assets/clr.png" // Update this path to your project image
+              src="/images/clr.png" // Corrected path for the project image
               alt="Project 1"
               className="object-cover w-full h-full"
             />
@@ -100,7 +100,7 @@ const Home = ({ onNavigate }) => {
             className="relative h-64 overflow-hidden transition-transform duration-300 transform bg-black rounded-lg shadow-lg cursor-pointer w-72 neon-shadow hover:scale-105"
           >
             <img 
-              src="/src/assets/todo.jpg" // Update this path to your project image
+              src="/images/todo.jpg" // Corrected path for the project image
               alt="Project 2"
               className="object-cover w-full h-full"
             />
@@ -113,30 +113,6 @@ const Home = ({ onNavigate }) => {
           </div>
         </div>
       </section>
-
-      {/* Contact Section */}
-      {/* <section id="contact" className={`py-20 text-white text-center transition-opacity duration-700 ${isScrolled ? 'opacity-100' : 'opacity-0'}`} style={{ height: '100vh' }}>
-        <h2 className="mb-10 text-4xl font-bold text-shadow">Contact Me</h2>
-        <div className="flex flex-col items-center space-y-4">
-          <p className="text-lg">Feel free to reach out for any inquiries!</p>
-          <p className="flex items-center">
-            <FaEnvelope className="mr-2" />
-            <span>Email: <a href="mailto:your_email@example.com" className="hover:text-blue-400">your_email@example.com</a></span>
-          </p>
-          <p className="flex items-center">
-            <FaPhone className="mr-2" />
-            <span>Phone: <a href="tel:+1234567890" className="hover:text-blue-400">+1 (234) 567-890</a></span>
-          </p>
-          <p className="flex items-center">
-            <FaLinkedin className="mr-2" />
-            <span>LinkedIn: <a href="https://linkedin.com/in/yourprofile" className="hover:text-blue-400">linkedin.com/in/yourprofile</a></span>
-          </p>
-          <p className="flex items-center">
-            <FaGithub className="mr-2" />
-            <span>GitHub: <a href="https://github.com/yourprofile" className="hover:text-blue-400">github.com/yourprofile</a></span>
-          </p>
-        </div>
-      </section> */}
 
       {/* Footer */}
       <footer className="py-10 text-white bg-black neon-shadow">
