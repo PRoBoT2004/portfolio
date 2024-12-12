@@ -98,7 +98,7 @@ const Contact = () => {
       
       {/* Footer */}
       <footer className="py-10 text-center text-white bg-black">
-        <p>© 2024 [Your Name]. All rights reserved.</p>
+        <p>© 2024 Krishna Mehta . All rights reserved.</p>
       </footer>
     </div>
   );
