@@ -58,15 +58,16 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      name: 'Color Changer',
-      image: 'https://imgs.search.brave.com/CX--cTJekc_RjKg8gliJmysEgfSB0NfulhM8RWUJy48/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c2Vzc2lvbnMuZWR1/L3dwLWNvbnRlbnQv/dGhlbWVzL2Rpdmkt/Y2hpbGQvY29sb3It/Y2FsY3VsYXRvci93/aGVlbC01LXJ5Yi5w/bmc', // Ensure the image path is correct
-      technologies: 'React, Tailwind CSS',
-      purpose: 'A tool to dynamically change colors in your web application.',
-      howIBuiltIt: 'Used React for the frontend and CSS for styling.',
-      brief: 'The Color Changer project demonstrates the implementation of React hooks, focusing on dynamically altering the colors across various web pages. This project highlights my understanding of state management in React and how hooks can be leveraged to create an interactive user experience.',
-      githubLink: 'https://github.com/PRoBoT2004/color',
-      deploymentLink: 'https://probot2004.github.io/color/',
+      name: 'OnGo Ride Sharing',
+      image: 'https://t4.ftcdn.net/jpg/01/26/87/09/360_F_126870960_2daYXIfjxtDhLmkwsYQMo8xAA930ldQe.jpg',
+      technologies: 'Figma , Flutter',
+      purpose: 'A platform for ride sharing and carpooling.',
+      howIBuiltIt: 'Created using Python and Flask for the backend, with React for the frontend.',
+      brief: 'OnGo Ride Sharing was my final year project and also my best work. I designed and developed the UI for the mobile app and built the platform using Python and Flask for the backend and React for the frontend. It’s a ride-sharing platform aimed at improving the carpooling experience.',
+      githubLink: 'https://github.com/chiraggavande/OnGo_prototype',
+      deploymentLink: 'https://shorturl.at/FdPhG',
     },
+   
     {
       id: 2,
       name: 'To-Do List',
@@ -102,15 +103,16 @@ const Projects = () => {
     },
     {
       id: 5,
-      name: 'OnGo Ride Sharing',
-      image: 'https://t4.ftcdn.net/jpg/01/26/87/09/360_F_126870960_2daYXIfjxtDhLmkwsYQMo8xAA930ldQe.jpg',
-      technologies: 'Figma , Flutter',
-      purpose: 'A platform for ride sharing and carpooling.',
-      howIBuiltIt: 'Created using Python and Flask for the backend, with React for the frontend.',
-      brief: 'OnGo Ride Sharing was my final year project and also my best work. I designed and developed the UI for the mobile app and built the platform using Python and Flask for the backend and React for the frontend. It’s a ride-sharing platform aimed at improving the carpooling experience.',
-      githubLink: 'https://github.com/chiraggavande/OnGo_prototype',
-      deploymentLink: 'https://whimsical.com/ongo-wireflow-4RDRT6YV9rKKmXo941XTcy',
+      name: 'Color Changer',
+      image: 'https://imgs.search.brave.com/CX--cTJekc_RjKg8gliJmysEgfSB0NfulhM8RWUJy48/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c2Vzc2lvbnMuZWR1/L3dwLWNvbnRlbnQv/dGhlbWVzL2Rpdmkt/Y2hpbGQvY29sb3It/Y2FsY3VsYXRvci93/aGVlbC01LXJ5Yi5w/bmc', // Ensure the image path is correct
+      technologies: 'React, Tailwind CSS',
+      purpose: 'A tool to dynamically change colors in your web application.',
+      howIBuiltIt: 'Used React for the frontend and CSS for styling.',
+      brief: 'The Color Changer project demonstrates the implementation of React hooks, focusing on dynamically altering the colors across various web pages. This project highlights my understanding of state management in React and how hooks can be leveraged to create an interactive user experience.',
+      githubLink: 'https://github.com/PRoBoT2004/color',
+      deploymentLink: 'https://probot2004.github.io/color/',
     },
+   
   ];
 
   return (
