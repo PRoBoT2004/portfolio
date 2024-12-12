@@ -57,7 +57,7 @@ const Projects = () => {
   // Project data, including brief for each project
   const projects = [
     {
-      id: 1,
+      id: 5,
       name: 'Color Changer',
       image: 'https://imgs.search.brave.com/CX--cTJekc_RjKg8gliJmysEgfSB0NfulhM8RWUJy48/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c2Vzc2lvbnMuZWR1/L3dwLWNvbnRlbnQv/dGhlbWVzL2Rpdmkt/Y2hpbGQvY29sb3It/Y2FsY3VsYXRvci93/aGVlbC01LXJ5Yi5w/bmc', // Ensure the image path is correct
       technologies: 'React, Tailwind CSS',
@@ -101,7 +101,7 @@ const Projects = () => {
       deploymentLink: 'https://www.figma.com/design/9xFrAoC5jsDi8m7Yy8LU0T/TerraLife?node-id=0-1&t=Bc4wCmCPAPSdAlkN-1',
     },
     {
-      id: 5,
+      id: 1,
       name: 'OnGo Ride Sharing',
       image: 'https://t4.ftcdn.net/jpg/01/26/87/09/360_F_126870960_2daYXIfjxtDhLmkwsYQMo8xAA930ldQe.jpg',
       technologies: 'Figma , Flutter',
@@ -109,7 +109,7 @@ const Projects = () => {
       howIBuiltIt: 'Created using Python and Flask for the backend, with React for the frontend.',
       brief: 'OnGo Ride Sharing was my final year project and also my best work. I designed and developed the UI for the mobile app and built the platform using Python and Flask for the backend and React for the frontend. It’s a ride-sharing platform aimed at improving the carpooling experience.',
       githubLink: 'https://github.com/chiraggavande/OnGo_prototype',
-      deploymentLink: 'https://whimsical.com/ongo-wireflow-4RDRT6YV9rKKmXo941XTcy',
+      deploymentLink: 'https://shorturl.at/FdPhG',
     },
   ];
 
