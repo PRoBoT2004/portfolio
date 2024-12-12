@@ -56,14 +56,14 @@ const About = () => {
       description: 'Developed and maintained a responsive mobile application, focusing on enhancing user experience through efficient and clean code.',
       gain: 'Gained hands-on experience in mobile app development and user-centered design principles.',
       process: 'Worked closely with stakeholders to gather requirements and iterated on designs based on user feedback.',
-      link: 'https://example.com/ongo-project'
+      link: 'https://www.figma.com/design/iT4uf5LpimAhCd2NWLKqGk/OnGo-%3A-Peer-to-peer-ride-sharing-app?t=xwm66hHeiEOZYgIW-1'
     },
     {
       title: 'Static Website for Final Year Project: TERRALIFE',
       description: 'Created a static website for a project called TERRALIFE using React and Tailwind CSS, and deployed it after completion.',
       gain: 'Learned about deploying web applications and optimizing static content for performance.',
       process: 'Utilized React for component-based architecture and Tailwind CSS for rapid styling.',
-      link: 'https://example.com/terralife-project'
+      link: 'https://probot2004.github.io/TerraLife.com/'
     },
   ];
 
